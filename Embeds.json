@@ -1,0 +1,82 @@
+{
+    "remg": {
+        "embed": {
+            "title": "**GET ROLES**",
+            "color": "GREEN",
+            "description": "React with 😀 to get the role <@New programer>, React with 🤑 to get the role <@Novice programmer>, React with 😎 to get the role <@Advanced programmer>",
+            "author": {
+                "name": "Roler",
+                "url": "",
+                "icon_url": ""
+            },
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "cnros": {
+        "embed": {
+            "title": "**CONFIRMATION REQUIRED**",
+            "color": "ORANGE",
+            "description": "You must confirm that you have a bot that works. To confirm send a link to a website the bot is on or send the invite link.",
+            "author": {
+                "name": "Roler",
+                "url": "",
+                "icon_url": ""
+            },
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "wdybdc": {
+        "embed": {
+            "title": "**CONFIRMATION REQUIRED**",
+            "color": "ORANGE",
+            "description": "Now please send what your bot does.",
+            "author": {
+                "name": "Roler",
+                "url": "",
+                "icon_url": ""
+            },
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "cnros2": {
+        "embed": {
+            "title": "**CONFIRMATION REQUIRED**",
+            "color": "ORANGE",
+            "description": "You must confirm that you have 2 bots that works. To confirm send a link to two websites the bots is on or send the invite links. Separate them by typing 1)(first bot's link) 2)(2nd bot's link)",
+            "author": {
+                "name": "Roler",
+                "url": "",
+                "icon_url": ""
+            },
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    },
+    "wdybdc2": {
+        "embed": {
+            "title": "**CONFIRMATION REQUIRED**",
+            "color": "ORANGE",
+            "description": "Now please send what your bots do. Separate them by typing 1)(type here what the first bot does) 2)(type here what the 2nd bot does)",
+            "author": {
+                "name": "Roler",
+                "url": "",
+                "icon_url": ""
+            },
+            "footer": {
+                "icon_url": "https://cdn.discordapp.com/avatars/660862491102019604/5b28dadf6cf852c943e1df0a82dad850.webp",
+                "text": "Brought to you by Minecrafty999"
+            }
+        }
+    }
+}
