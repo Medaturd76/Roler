@@ -1,3 +1,13 @@
+const express = require('express')
+const app = express();
+const port = 3000
+
+app.get('/', ( req, res ) => res.send("Hey Bud!"))
+
+app.listen(port, () => 
+    console.log(`Your app is lisening at https://localhost:${port}`)
+);
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const { MessageEmbed } = require('discord.js')
@@ -115,4 +125,4 @@ client.on('message', async message => {
     }
 })
 
-client.login(process.env.token)
+client.login(process.env.TOKEN)
