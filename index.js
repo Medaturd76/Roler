@@ -100,16 +100,17 @@ client.on('message', async message => {
             if (!args[1]) return message.channel.send();
             if (!args[2]) return message.channel.send();
 
-            const botcreater = args[1]
+            const botcreater = `<@${args[1]}>`
             const role = `<@${args[2]}>`
 
-            botcreater.send(new MessageEmbed()
+            const botcreater2 = message.guild.members.cache.find(member => member.user.username === botcreater)
+
+            botcreater2.send(new MessageEmbed()
                 .setColor("GREEN")
                 .setTitle('**ACCEPTED**')
                 .setDescription(`😱Your request to get the role ${args[2]} on the discord.js coding support server has been accepted`)
             )
-            const botcreater2 = `<@${args[1]}>`
-            message.guild.members.cache.find(member => member.user.username === botcreater2).roles.add(role)
+            message.guild.members.cache.find(member => member.user.username === botcreater).roles.add(role)
         }
     }
 })
